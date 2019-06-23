@@ -16,7 +16,7 @@ export class RandomEnsure<T> {
             random: options.random || Math.random.bind(Math),
             ensure: options.hasOwnProperty("ensure") ? options.ensure : 0.25
         };
-        if (this.options.ensure <= 1) {
+        if (this.options.ensure < 1) {
             this.options.ensure = Math.ceil(this.list.length*this.options.ensure);
         }
         if (this.options.ensure > Math.floor(this.list.length/2)) {
