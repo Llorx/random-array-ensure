@@ -32,7 +32,7 @@ let list = new RandomEnsure([0, 1, 2, 3, 4], {
 
 // Giving a custom ensuring option
 let list = new RandomEnsure([0, 1, 2, 3, 4], {
-    // A number between 0 and 0.5
+    // A number between 0 and 0.5 (treated as a %)
     // or an absolute number between 1 and half of the array length
     // Default is 0.25
     ensure: 0.5
