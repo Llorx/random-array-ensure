@@ -1,6 +1,6 @@
 {
   "name": "random-array-ensure",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Retrieve random elements from an array, ensuring that al least each item will be received one time and that no duplicates will be received after each array loop.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

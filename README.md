@@ -17,7 +17,7 @@ import { RandomEnsure } from random-array-ensure;
 let list = new RandomEnsure([0, 1, 2, 3, 4]);
 
 for (let i = 0; i < 1000; i++) {
-    let elem = list.next();
+    let elem = list.next(); // Get next random ensured element.
 }
 
 // Giving a custom random() function
