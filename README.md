@@ -5,13 +5,13 @@ This library will ensure that for a given array, you will receive a random eleme
 
 So, for a `length = 1000` array and `ensure = 0.25` (25%), you will get 1000 random entries without any duplicate and then will shuffle the array again to get another 1000 random entries without any duplicate, but ensuring that 25% of the last entries received in the old shuffle won't be stored on the first 25% positions of the next shuffle, increasing the "randomness without duplication" feeling.
 
-#install
+# Install
 ```
 npm install random-array-ensure
 ```
 
-#usage
-```
+# Usage
+```JavaScript
 import { RandomEnsure } from random-array-ensure;
 
 let list = new RandomEnsure([0, 1, 2, 3, 4]);
