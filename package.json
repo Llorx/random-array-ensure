@@ -1,6 +1,6 @@
 {
   "name": "random-array-ensure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Retrieve random elements from an array, ensuring that al least each item will be received one time and that no duplicates will be received after each array loop.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,10 @@
     "lib/",
     "README.md"
   ],
-  "url": "https://github.com/Llorx/random-array-ensure",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Llorx/random-array-ensure"
+  },
   "keywords": [
     "random",
     "array",
