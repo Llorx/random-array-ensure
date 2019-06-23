@@ -1,0 +1,22 @@
+{
+  "name": "random-array-ensure",
+  "version": "1.0.0",
+  "description": "Retrieve random elements from an array, ensuring that al least each item will be received one time and that no duplicates will be received after each array loop.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "watch": "npx tsc --watch",
+    "build": "npx tsc --build",
+    "test": "node ./lib/test.js"
+  },
+  "keywords": [
+    "random",
+    "array",
+    "ensure"
+  ],
+  "author": "Llorx",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
