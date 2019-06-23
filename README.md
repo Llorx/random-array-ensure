@@ -23,14 +23,18 @@ for (let i = 0; i < 1000; i++) {
 // Giving a custom random() function
 let list = new RandomEnsure([0, 1, 2, 3, 4], {
     random: () => {
-        // Your custom function that returns a number between 0 and 1. 0 inclusive and 1 exclusive. Default is Math.random().
+        // Your custom function that returns a number between 0 and 1
+        // must be 0 inclusive and 1 exclusive
+        // Default is Math.random()
         return Math.random();
     }
 });
 
 // Giving a custom ensuring option
 let list = new RandomEnsure([0, 1, 2, 3, 4], {
-    ensure: 0.5 // A number between 0 and 0.5 (or an absolute number between 1 and half of the array length). Default is 0.25.
+    // A number between 0 and 0.5
+    // or an absolute number between 1 and half of the array length
+    // Default is 0.25
+    ensure: 0.5
 });
-
 ```
