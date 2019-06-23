@@ -9,6 +9,11 @@
     "build": "npx tsc --build",
     "test": "node ./lib/test.js"
   },
+  "files": [
+    "lib/",
+    "README.md"
+  ],
+  "url": "https://github.com/Llorx/random-array-ensure",
   "keywords": [
     "random",
     "array",
